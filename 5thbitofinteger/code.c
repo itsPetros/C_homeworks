@@ -31,7 +31,6 @@ int main() {
         binaryStr[31 - 5] = '1';
 
         modifiedNumber = binaryToInt(binaryStr);
-
         printf("Modified number: %d\n", modifiedNumber);
     } else {
         printf("The 5th bit is already 1.\n");
